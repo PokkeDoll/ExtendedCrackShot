@@ -63,11 +63,9 @@ class WeaponLoader(private val csDirector: CSDirector) {
     val config = new YamlConfiguration()
     Try(config.load(file)) match {
       case Success(_) =>
-        println("Success to load config!")
         Some(config)
       case Failure(e) =>
         e.printStackTrace()
-        println("Fail to load config!")
         None
     }
   }
@@ -98,7 +96,7 @@ class WeaponLoader(private val csDirector: CSDirector) {
                   weaponConfig = copyConfigurationSection(data, key)
                   csDirector.fillHashMaps(weaponConfig)
                 case None =>
-                  println(s"$extend not found")
+                  println(s"[(Extended)CrackShot] $extend is not found")
               }
             }
           })
