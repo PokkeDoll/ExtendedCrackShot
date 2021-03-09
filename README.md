@@ -49,13 +49,13 @@ Weapon_Title:
 ```
 
 ### Example
-Situation => I wanna create "AK-47 Special" same specs as "AK-47". But **Special** weapon, so it increases weapon damage, projectile speed.
+Situation => I wanna create "AK-47 Special" same specs as "AK-47". But **Special** weapon, so it increases weapon damage and projectile speed.
 ```
 Directory:
 plugins/CrackShot/weapons/
--> extended/
-   -> ak-47-special.yml <<<<<- Here
--> ak-47.yml
+↪ extended/
+   ↪ ak-47-special.yml <<<<<- Here
+↪ ak-47.yml
 ```
 ```yml
 AK-47-Special:
