@@ -73,8 +73,8 @@ CrackShot modules list is [this link](https://github.com/Shampaggon/CrackShot/wi
 ## Apply your plugin
 
 1. Copy and Paste this code
-2. create new instance to your JavaPlugin
-3. execute "/shot config reload" (refresh weapons)
-4. call loadWeapons()
+2. Create new instance to your JavaPlugin
+3. Execute "/shot config reload" (refresh weapons)
+4. Call loadWeapons()
 
 **WARNING: If you call loadWeapons() using your timing(ex. player command), you have to execute "/shot config reload" before.**
